@@ -11,7 +11,7 @@ Touch switch on ATmega168/328 + RF24.
 
 ## Note
 
-A gateway is required. For details see "RF - ESP-NOW Gateway".
+A gateway is required. For details see "RF Gateway".
 
 ## Full config example for Home Assistant
 
