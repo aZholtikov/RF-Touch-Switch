@@ -1,6 +1,6 @@
 # RF touch switch
 
-Touch switch on ATmega168/328 + RF24.
+Touch switch on ATmega168/328 + nRF24.
 
 ## Features
 
@@ -11,18 +11,6 @@ Touch switch on ATmega168/328 + RF24.
 
 ## Note
 
-A gateway is required. For details see "RF Gateway".
+A gateway is required. For details see [RF Gateway](https://github.com/aZholtikov/RF-Gateway).
 
-## Full config example for Home Assistant
-
-```yml
-mqtt:
-  sensor:
-    - name: "NAME"
-      device_class: "voltage"
-      unit_of_measurement: "V"
-      state_topic: "homeassistant/rf_sensor/ID/touch_switch"
-      value_template: "{{ value_json.battery }}"
-      force_update: true
-      qos: 2
-```
+Any feedback via [e-mail](mailto:github@zh.com.ru) would be appreciated. Or... [Buy me a coffee](https://paypal.me/aZholtikov).
